@@ -7,7 +7,7 @@ public class TiposVariaveis {
 
         short numeroCurto = 1;
         int numeroNormal = numeroCurto;
-        short numeroCurto = (short) numeroNormal; // realizar uma adaptacao para colocar um valor com possível precisao maior pára uma precisao menor vc tem ciencia. casting
+        //short numeroCurto = (short) numeroNormal; // realizar uma adaptacao para colocar um valor com possível precisao maior pára uma precisao menor vc tem ciencia. casting
     
         // variável
         int numero = 5;
