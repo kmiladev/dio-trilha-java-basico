@@ -23,3 +23,9 @@ Para cada arquivo da entrada, terá um arquivo de saída. E como mencionado no D
 | Entrada | Saída |
 | 2000 | 2050.00 |
 | 250 |  |
+
+| Entrada | Saída |  
+|---|---|
+| 2000  | 2050.00 | 
+| 250  |   |  
+|---|---|
