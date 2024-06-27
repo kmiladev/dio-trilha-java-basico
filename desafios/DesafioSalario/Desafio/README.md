@@ -20,12 +20,8 @@ A entrada consiste em vários arquivos de teste, que conterá o valor bruto do s
 
 Para cada arquivo da entrada, terá um arquivo de saída. E como mencionado no Desafio, será gerado uma linha com um número que será a diferença entre o valor bruto do salário e o percentual de imposto mediante a faixa salarial somado com o adicional dos benefícios. use o exemplo abaixo para clarear o que está sendo pedido.
 
-| Entrada | Saída |
-| 2000 | 2050.00 |
-| 250 |  |
 
 | Entrada | Saída |  
 |---|---|
 | 2000  | 2050.00 | 
 | 250  |   |  
-|---|---|
