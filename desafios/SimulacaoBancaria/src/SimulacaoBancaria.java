@@ -26,19 +26,22 @@ public class SimulacaoBancaria {
                     System.out.println("Informe o valor a ser depositado; ");
                     double valorDepositado = scanner.nextDouble(); 
                     saldo += valorDepositado;
-                    System.out.printf("O saldo atual é: %.1f%n", saldo);
+                    System.out.println("O saldo atual é: " + saldo);
                     break;
                 case 2:
                     // TODO: Ler o valor a ser sacado e verificar/imprimir se há saldo suficiente.
                     System.out.println("Informe o valor a ser sacado; ");
                     double valorSacado = scanner.nextDouble(); 
                     saldo-=valorSacado;
-                    System.out.printf("O saldo atual é: %.1f%n", saldo);
+                    if(valorSacado > saldo){
+                        System.out.println("Saldo Insuficiente");
+                    }else
+                    System.out.println("O saldo atual é: " + saldo);
                     break;
                 case 3:
                     // TODO: Exibir o saldo atual da conta.
                     System.out.println("Consultar o valor do saldo atual ");
-                    System.out.printf("O saldo atual é: %.1f%n" , saldo);
+                    System.out.println("O saldo atual é: " + saldo);
                     break;
                 case 0:
                     System.out.println("Programa encerrado.");
