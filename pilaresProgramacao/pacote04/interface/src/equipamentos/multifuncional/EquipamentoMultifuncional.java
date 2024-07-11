@@ -8,6 +8,7 @@ import equipamentos.impressora.Impressora;
 
 // fazemos as implementações para que Equipamentos herde as características das 3 interfaces (não mais classes abstrata que extende)
 public class EquipamentoMultifuncional implements Copiadora,Digitalizadora,Impressora {
+    
     public void copiar(){
         System.out.println("Copiando via equipamento Multifuncional");
     }
