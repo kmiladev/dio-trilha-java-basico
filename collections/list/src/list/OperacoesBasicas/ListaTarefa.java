@@ -47,7 +47,7 @@ public int obterNumeroTotalDeTarefas(){
 
 // obter descricoes tarefas
 
-public void obterDescricoesTarefas()[
+public void obterDescricoesTarefas(){
     System.out.println(tarefaList);
-]
+}
 }
